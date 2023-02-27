@@ -79,10 +79,10 @@ void quickSort(int arr[], int size)
 int main()
 {
 
-	////TODO: продебажить на данном наборе
+	
 	const int size = 10;
-	//int arr[size] = { -1,0,4,7,-12,10,10,4,0,5}; //!!! error
-	int arr[size] = { -1,0,14,7,-12,10,11,4,1,5 }; //!!!error
+	//int arr[size] = { -1,0,4,7,-12,10,10,4,0,5}; 
+	int arr[size] = { -1,0,14,7,-12,10,11,4,1,5 }; 
 	//quicksort(arr, 0, size);
 	quickSort(arr, size - 1);
 	for (int i = 0; i < size; i++)
